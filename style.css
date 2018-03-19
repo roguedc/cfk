@@ -1,0 +1,389 @@
+/**
+ * Theme Name:  Make (child theme)
+ * Theme URI:   https://thethemefoundry.com/make/
+ * Author:      The Theme Foundry
+ * Author URI:  https://thethemefoundry.com
+ * Description: Create your website without touching a line of code. Make's flexible customization features and a powerful drag and drop page builder make designing your site fun and easy. Build almost anything: a simple portfolio or photography site, an ecommerce business site, a minimalist blog, or even a professional magazine. You'll start by customizing your background, layouts, fonts, colors, and logo. Next, add and organize your content using the drag and drop page builder. Add a photo, a video, a gallery, or even a slider to any page on your website. Make is responsive, so your website will naturally look great on phones, tablets, and desktop screens. It's also fully compatible with popular plugins like WooCommerce, Gravity Forms, Contact Form 7, Jetpack, and WP PageNavi.
+ * Version:     1.1.0
+ * License:     GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Template: make
+ * Text Domain: make-child
+ * Domain Path: /languages/
+ * Tags:        black, blue, green, gray, orange, red, white, yellow, dark, light, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, buddypress, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, photoblogging
+ *
+ * Make WordPress Theme, Copyright 2015 The Theme Foundry
+ * Make is distributed under the terms of the GNU GPL
+ */
+
+/*
+ * Add your custom styles below.
+ * This version of the Make child theme is only compatible with Make 1.6.0 and above.
+ */
+
+.entry-title {
+	margin-bottom: 1rem;
+}
+
+.entry-header {
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	letter-spacing: .2rem;
+}
+
+.post-categories a {
+	color: #98002e;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1.8rem;
+	letter-spacing: .1rem;
+	line-height: 2rem;
+}
+
+.builder-section-postlist .ttfmp-post-list-item {
+	margin-bottom: .2rem;
+}
+
+.entry-header .fa {
+	display: none;
+}
+
+.archive-title {
+	color: #98002e;
+	line-height: 3rem;
+	padding-bottom: 2rem;
+}
+
+.cat-subtitle {
+	color: #98002e;
+	font-size: 1.6rem;
+	font-weight: 600;
+	padding-bottom: 2rem;
+}
+
+.class-time,
+.class-time a {
+	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.6rem;
+	letter-spacing: .2rem;
+	line-height: 3rem;
+	color: #14325f;
+}
+
+.cfk-teacher,
+.cfk-teacher a {
+	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #98002e;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.6rem;
+	letter-spacing: .2rem;
+	line-height: 3rem;
+}
+
+.cfk-teacher .fa {
+	display: none;
+}
+
+.wp-post-image {
+	box-shadow: 4px 4px 4px #333333;
+	border-radius: .4rem;
+	width: 100%;
+}
+
+.price-single {
+	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #00853f;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.6rem;
+	letter-spacing: .2rem;
+	line-height: 3rem;
+}
+
+.navigation a,
+.nav-next a,
+.nav-previous a {
+	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #98002e !important;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 1.4em;
+	letter-spacing: .2rem;
+	line-height: 8rem;
+}
+
+.header-bar .menu {
+	text-align: center;
+	float: none;
+}
+
+.background-video {
+	opacity: .2;
+}
+
+.builder-section-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.nf-form-cont {
+	color: #fff;
+}
+
+footer.entry-footer {
+	display: none;
+}
+
+#mailchimp-top-bar.mctb-medium input {
+	margin: 5px 5px 5px 10px;
+}
+
+#mailchimp-top-bar.mctb-medium label {
+	font-size: 1.8rem;
+}
+
+.section-title-white {
+	color: #fff;
+}
+
+.builder-post-list-section-title {
+	font-weight: 900;
+	font-size: 2rem;
+	padding-bottom: 2rem;
+	letter-spacing: .1rem;
+	color: #98002e;
+}
+
+.builder-text-section-title {
+	font-weight: 900;
+	font-size: 2rem;
+	letter-spacing: .1rem;
+}
+
+.builder-gallery-section-title {
+	padding-bottom: 2rem;
+	font-weight: 900;
+	font-size: 2rem;
+	padding-bottom: 2rem;
+	letter-spacing: .1rem;
+}
+
+.ttfmp-widget-post-list {
+	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.6rem;
+	color: #14325f;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: .1rem;
+}
+
+.ttfmp-post-list-item-title,
+.ttfmp-post-list-item-title a {
+	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #14325f;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	font-weight: 400;
+	font-size: 1.4rem;
+}
+
+.site-footer input {
+	margin-bottom: 10px;
+}
+
+.site-footer .footer-1 a {
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-weight: 500;
+}
+
+.site-footer .footer-3 a {
+	font-weight: 500;
+}
+
+#nf-field-4,
+input.mctb-button {
+	color: #333;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 1.5rem;
+	letter-spacing: 1.5px;
+	background-color: #fff;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+button,
+.ttfmake-button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.site-main .gform_wrapper .gform_footer input.button {
+	color: #333;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 1.5rem;
+	letter-spacing: .1rem;
+	background-color: #fff;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wp-post-image {
+	margin-bottom: .5rem;
+}
+
+.archive-title,
+.archive-title a {
+	color: #14325f;
+	font-weight: 900;
+	font-size: 1.8rem;
+	padding-bottom: 1rem;
+}
+
+.archive-layout {
+	column-count: 3;
+	column-gap: 1em;
+}
+
+.archive-bricks {
+	display: inline-block;
+	padding: 1.3rem 1.5rem 2rem 1.3rem;
+	margin: 0rem 2rem 2rem 0rem;
+	width: 100%;
+	border: .1rem solid #727472;
+	box-shadow: .4rem .4rem .4rem #727472;
+}
+
+.archive-bricks a {
+	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.4rem;
+	color: #14325f;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: .1rem;
+}
+
+.price-archive {
+	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #00853f;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.4rem;
+	letter-spacing: .1rem;
+	line-height: 1.4rem;
+}
+
+.cat-archive,
+.cat-archive a {
+	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #98002e;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1.4rem;
+	letter-spacing: .1rem;
+	line-height: 2.5rem;
+}
+
+input[type="email"] {
+	margin-bottom: 1rem;
+}
+
+.sidebar .mc4wp-form-fields input[type="submit"] {
+	font-size: 1.4rem;
+	color: #fff;
+	background-color: #14325f;
+}
+
+.sidebar .mc4wp-form-fields input[type="email"],
+input[type="search"] {
+	color: #333;
+	background-color: #fff;
+	border: .1rem solid #333;
+}
+
+.ttfmp-widget-post-list .ttfmp-post-list-item {
+	margin-bottom: 1.2rem;
+}
+
+.wq_questionTextCtr h4 {
+	font-size: 1.5rem !important;
+	font-weight: 600 !important;
+	text-transform: none !important;
+	letter-spacing: normal !important;
+}
+
+.wq_singleAnswerCtr .wq_answerTxtCtr {
+	font-size: 1.5rem !important;
+	font-weight: 400 !important;
+	text-transform: none !important;
+	letter-spacing: normal !important;
+}
+
+.wq_quizCtr img {
+	max-width: 30rem !important;
+	padding-top: 1rem !important;
+}
+
+.wq_quizCtr .wq_questionTextCtr {
+	background-color: #14325f !important;
+	color: #fff !important;
+}
+
+.wq_correctExplanationHead {
+	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	color: #00853f !important;
+	font-weight: 600 !important;
+	font-size: 1.8rem !important;
+	letter-spacing: .1rem !important;
+	text-transform: uppercase !important;
+}
+
+.wq_wrongExplanationHead {
+	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	color: #98002e !important;
+	font-size: 1.8rem !important;
+	font-weight: 600 !important;
+	letter-spacing: .1rem !important;
+	text-transform: uppercase !important;
+}
+
+.wq_singleResultWrapper .wq_quizTitle {
+	font-family: "Montserrat", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	color: #00853f !important;
+	font-weight: 900 !important;
+	font-size: 1.8rem !important;
+	letter-spacing: .2rem !important;
+	text-transform: uppercase !important;
+}
+
+.wp-image-4651,
+.wp-image-3528 {
+	border-radius: .4rem;
+	width: 100%;
+}
+
+@media only screen and (min-width: 300px) {
+	.archive-layout {
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		column-count: 1;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	.archive-layout {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.archive-layout {
+		-moz-column-count: 3;
+		-webkit-column-count: 3;
+		column-count: 3;
+	}
+}
